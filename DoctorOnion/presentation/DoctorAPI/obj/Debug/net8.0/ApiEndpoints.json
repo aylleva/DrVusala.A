@@ -1,0 +1,225 @@
+[
+  {
+    "ContainingType": "DoctorAPI.Controllers.ProceduresController",
+    "Method": "Delete",
+    "RelativePath": "api/Procedures",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DoctorAPI.Controllers.ProceduresController",
+    "Method": "Create",
+    "RelativePath": "api/Procedures/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "About",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "\u0130con",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Main\u0130mage",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AddImage",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Permanence",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsMain",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DoctorAPI.Controllers.ProceduresController",
+    "Method": "GetItem",
+    "RelativePath": "api/Procedures/GetItem",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DoctorAPI.Controllers.ProceduresController",
+    "Method": "GetProcedures",
+    "RelativePath": "api/Procedures/GetProcedures",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DoctorAPI.Controllers.ProceduresController",
+    "Method": "Update",
+    "RelativePath": "api/Procedures/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "prodto",
+        "Type": "Doctor.Application.Dtos.Procedure.UpdateProcedureDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DoctorAPI.Controllers.SlidesController",
+    "Method": "Create",
+    "RelativePath": "api/Slides/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Image",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsMain",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DoctorAPI.Controllers.SlidesController",
+    "Method": "Delete",
+    "RelativePath": "api/Slides/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DoctorAPI.Controllers.SlidesController",
+    "Method": "GetById",
+    "RelativePath": "api/Slides/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DoctorAPI.Controllers.SlidesController",
+    "Method": "GetSlides",
+    "RelativePath": "api/Slides/GetSlides",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DoctorAPI.Controllers.SlidesController",
+    "Method": "Update",
+    "RelativePath": "api/Slides/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsMain",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

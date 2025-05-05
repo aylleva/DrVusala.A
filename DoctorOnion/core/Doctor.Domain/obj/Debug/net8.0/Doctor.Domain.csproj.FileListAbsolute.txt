@@ -1,0 +1,14 @@
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Domain\bin\Debug\net8.0\Doctor.Domain.deps.json
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Domain\bin\Debug\net8.0\Doctor.Domain.runtimeconfig.json
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Domain\bin\Debug\net8.0\Doctor.Domain.dll
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Domain\bin\Debug\net8.0\Doctor.Domain.pdb
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Domain\obj\Debug\net8.0\Doctor.Domain.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Domain\obj\Debug\net8.0\Doctor.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Domain\obj\Debug\net8.0\Doctor.Domain.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Domain\obj\Debug\net8.0\Doctor.Domain.AssemblyInfo.cs
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Domain\obj\Debug\net8.0\Doctor.Domain.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Domain\obj\Debug\net8.0\Doctor.Domain.dll
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Domain\obj\Debug\net8.0\refint\Doctor.Domain.dll
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Domain\obj\Debug\net8.0\Doctor.Domain.pdb
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Domain\obj\Debug\net8.0\Doctor.Domain.genruntimeconfig.cache
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Domain\obj\Debug\net8.0\ref\Doctor.Domain.dll

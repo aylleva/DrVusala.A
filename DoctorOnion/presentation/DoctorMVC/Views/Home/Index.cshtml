@@ -1,0 +1,208 @@
+﻿
+@model HomeVM
+
+<!-- Home -->
+
+<div class="home">
+
+	<!-- Home Slider -->
+	<div class="home_slider_container">
+		<div class="owl-carousel owl-theme home_slider">
+
+			<!-- Slide -->
+			<div class="owl-item">
+				<div class="background_image" style="background-image:url(images/dr.jpg)">
+					<img src="~/assets/images/drvusala.png" alt=""></div>
+				<div class="home_container">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="home_content">
+									<div class="home_subtitle">Professional Cosmetologist</div>
+									<div class="home_title">Təbii Gözəlliyinizi Bizimlə Kəşf Edin</div>
+									<div class="home_text">
+										<p>Peşəkar qulluq, fərdi yanaşma və görünüşünüzə dəyər qatan prosedurlar.</p>
+									</div>
+									<div class="home_buttons d-flex flex-row align-items-center justify-content-start">
+										<div class="button button_1 trans_200"><a asp-controller="procedures" asp-action="index">Daha Ətraflı</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- Home Slider Dots -->
+
+		@* <div class="home_slider_dots">
+			<ul id="home_slider_custom_dots" class="home_slider_custom_dots d-flex flex-row align-items-center justify-content-start">
+				<li class="home_slider_custom_dot trans_200 active"></li>
+				<li class="home_slider_custom_dot trans_200"></li>
+				<li class="home_slider_custom_dot trans_200"></li>
+			</ul>
+		</div> *@
+
+	</div>
+</div>
+
+
+<!-- Why Choose Us -->
+
+<div class="why">
+	<!-- <div class="background_image" style="background-image:url(images/why.jpg)"></div> -->
+	<div class="container">
+		<div class="row row-eq-height">
+
+			<!-- Why Choose Us Image -->
+			<div class="col-lg-6 order-lg-1 order-2">
+				<div class="why_image_container">
+					<div class="why_image"><img  src="~/assets/images/about.jpg" alt=""></div>
+				</div>
+			</div>
+
+			<!-- Why Choose Us Content -->
+			<div class="col-lg-6 order-lg-2 order-1">
+				<div class="why_content">
+					<div class="section_title_container">
+						<div class="section_title"><h2>Niyə məhz biz?</h2></div>
+					</div>
+					<div class="why_text">
+						<p>
+							Peşəkar doktorumuz hər müştəriyə individual yanaşma ilə xidmət göstərir. Yüksək keyfiyyətli məhsullardan istifadə edərək, təbii gözəlliyinizi ön plana çıxarır. Müasir texnologiyalar və steril mühitlə sizə təhlükəsiz və effektiv prosedurlar təqdim edir. Gözəlliyiniz bizim üçün ön plandadır!
+						</p>
+					</div>
+					<div class="why_list">
+						<ul>
+
+							<!-- Why List Item -->
+							<li class="d-flex flex-row align-items-center justify-content-start">
+								<div class="icon_container d-flex flex-column align-items-center justify-content-center">
+									<div class="icon"><img src="~/assets/images/icon_1.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
+								</div>
+								<div class="why_list_content">
+									<div class="why_list_title">Yalnız Top Prosedurlar</div>
+									<div class="why_list_text">Yalnız yüksək keyfiyyətli, dermatoloji cəhətdən təsdiqlənmiş məhsullardan istifadə edirik.</div>
+								</div>
+							</li>
+
+							<!-- Why List Item -->
+							<li class="d-flex flex-row align-items-center justify-content-start">
+								<div class="icon_container d-flex flex-column align-items-center justify-content-center">
+									<div class="icon"><img src="~/assets/images/icon_2.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
+								</div>
+								<div class="why_list_content">
+									<div class="why_list_title">Peşəkarlıq</div>
+									<div class="why_list_text">Sertifikatlı və təcrübəli doktor ilə daim yenilənən biliklərə əsaslanan xidmətlər</div>
+								</div>
+							</li>
+
+							<!-- Why List Item -->
+							<li class="d-flex flex-row align-items-center justify-content-start">
+								<div class="icon_container d-flex flex-column align-items-center justify-content-center">
+									<div class="icon"><img src="~/assets/images/icon_3.svg" alt="https://www.flaticon.com/authors/prosymbols"></div>
+								</div>
+								<div class="why_list_content">
+									<div class="why_list_title">Təhlükəsizlik və rahatlıq </div>
+									<div class="why_list_text">
+										Steril mühit və fərdi yanaşma ilə hər bir prosedurda maksimum rahatlıq və güvən.
+									</div>
+								</div>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Services -->
+
+<div class="services">
+	<div class="container">
+		<div class="row">
+			<div class="col text-center">
+				<div class="section_title_container">
+					<div class="section_subtitle">Dr.Vusala</div>
+					<div class="section_title"><h2>Top Prosedurlarımız</h2></div>
+				</div>
+			</div>
+		</div>
+		<div class="row services_row">
+			@foreach(var pro in Model.Procedures){
+				
+			<!-- Service -->
+			<div class="col-xl-4 col-md-6 service_col">
+				<div class="service text-center">
+					<div class="service">
+						<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+							<div class="icon"><img src="~/assets/images/@pro.İcon" alt="https://www.flaticon.com/authors/prosymbols"></div>
+						</div>
+						<div class="service_title">@pro.Name</div>
+						<div class="service_text">
+							<p>@pro.About</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			}
+		</div>
+
+	</div>
+</div>
+
+<!-- Extra -->
+
+@foreach(var slide in Model.Slides){
+	<div class="extra">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="~/assets/images/extra.jpg" data-speed="0.8"></div>
+		<div class="why_image"><img src="~/assets/images/@slide.Image>" alt=""></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="extra_container d-flex flex-row align-items-start justify-content-end">
+						<div class="extra_content">
+							<div class="extra_disc d-flex flex-row align-items-end justify-content-start">
+								@* <div>30<span>%</span></div> *@
+								@* <div>Discount</div> *@
+							</div>
+							<div class="extra_title">@slide.Title</div>
+							<div class="extra_text">
+								<p>@slide.Description</p>
+							</div>
+							<div class="button button_1 extra_link trans_200"><a href="#">read more</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+}
+
+@* <!-- Newsletter -->
+
+<div class="newsletter">
+	<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="~/assets/images/newsletter.jpg" data-speed="0.8"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col text-center">
+				<div class="newsletter_title">Subscribe to our newsletter</div>
+			</div>
+		</div>
+		<div class="row newsletter_row">
+			<div class="col-lg-8 offset-lg-2">
+				<div class="newsletter_form_container">
+					<form action="#" id="newsleter_form" class="newsletter_form">
+						<input type="email" class="newsletter_input" placeholder="Your E-mail" required="required">
+						<button class="newsletter_button">subscribe</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+ *@

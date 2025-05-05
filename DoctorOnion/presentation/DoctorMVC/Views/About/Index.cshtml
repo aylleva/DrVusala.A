@@ -1,0 +1,90 @@
+﻿@model AboutVm	
+<!-- Intro -->
+	
+<div class="intro">
+
+	<div class="container">
+		<div class="row">
+
+			<!-- Intro Content -->
+			<div class="col-lg-8">
+				<div class="intro_content">
+					<div class="section_title_container">
+						<div class="section_subtitle"> Dr Vusala</div>
+						<div class="section_title"><h2>Haqqımızda</h2></div>
+					</div>
+					<div class="intro_text">
+						<p>1995-2002-ci illərdə Azərbaycan Tibb Universitetinin Pediatriya ixtisasını yüksək dərəcə ilə bitirdi.7 fevral 2022-ci ildən 24 iyun 2022-ci ilə qədər "Tibbi Kosmetologiya" üzrə ixtisaslaşmış kursu vermişdir.7+ illik təcrübə ilə peşəkar həkim/kosmetolog kimi fəaliyyət göstərmişdir.Məhşur kosmetoloji konfranslarda iştirak olmuş,sertifikatlar əldə edilmişdir.Xanımlarımızın gözəlliyinə gözəllik qatan hər növ prosedurlarla xidmətinizdəyik.</p>
+					</div>
+
+					<!-- Milestones -->
+					<div class="col-lg-3 offset-lg-1">
+						<div class="intro_image"><img src="~/assets/images/home_overlay.png" alt=""></div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Intro Image -->
+			
+		</div>
+	</div>
+</div>
+
+<!-- Call to action -->
+
+<div class="cta">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="cta_container d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
+					<div class="cta_content">
+						<div class="cta_title">Daha Asan Konsultasiya Üçün</div>
+						<div class="cta_text">Bizimlə Asanlıqla Əlaqə Saxlayın</div>
+					</div>
+					<div class="cta_phone ml-lg-auto">+994-77-389-89-96</div><!--layoutservice-->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Team -->
+<div>
+
+</div>
+<div class="team">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="section_title_container text-center">
+					
+					<div class="section_title"><h2>Prosedurlarımızdan Görüntülər</h2></div>
+				</div>
+			</div>
+		</div>
+		<div class="row team_row">
+
+			@foreach(var pro in Model.ProcedureItems){
+				<!-- Pro Item -->
+			<div class="col-lg-4 team_col">
+				<div class="team_item text-center d-flex flex-column aling-items-center justify-content-end">
+					<div class="team_image"><img src="~/assets/procedure/@pro.Mainİmage" alt=""></div>
+					<div class="team_content text-center">
+						<div class="team_name"><a href="#">@pro.Name</a></div>
+						<div class="team_text">
+							<p>@pro.About</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			}
+
+		</div>
+	</div>
+</div>
+
+<!-- Newsletter -->
+<div class="newsletter">
+	
+</div>

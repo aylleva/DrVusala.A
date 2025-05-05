@@ -1,0 +1,17 @@
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Application\bin\Debug\net8.0\Doctor.Application.deps.json
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Application\bin\Debug\net8.0\Doctor.Application.runtimeconfig.json
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Application\bin\Debug\net8.0\Doctor.Application.dll
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Application\bin\Debug\net8.0\Doctor.Application.pdb
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Application\bin\Debug\net8.0\Doctor.Domain.dll
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Application\bin\Debug\net8.0\Doctor.Domain.pdb
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Application\obj\Debug\net8.0\Doctor.Application.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Application\obj\Debug\net8.0\Doctor.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Application\obj\Debug\net8.0\Doctor.Application.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Application\obj\Debug\net8.0\Doctor.Application.AssemblyInfo.cs
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Application\obj\Debug\net8.0\Doctor.Application.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Application\obj\Debug\net8.0\Doctor.A.6076BE3A.Up2Date
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Application\obj\Debug\net8.0\Doctor.Application.dll
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Application\obj\Debug\net8.0\refint\Doctor.Application.dll
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Application\obj\Debug\net8.0\Doctor.Application.pdb
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Application\obj\Debug\net8.0\Doctor.Application.genruntimeconfig.cache
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\core\Doctor.Application\obj\Debug\net8.0\ref\Doctor.Application.dll

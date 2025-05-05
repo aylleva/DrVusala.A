@@ -1,0 +1,14 @@
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\infrastructure\Doctor.Infrastructure\bin\Debug\net8.0\Doctor.Infrastructure.deps.json
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\infrastructure\Doctor.Infrastructure\bin\Debug\net8.0\Doctor.Infrastructure.runtimeconfig.json
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\infrastructure\Doctor.Infrastructure\bin\Debug\net8.0\Doctor.Infrastructure.dll
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\infrastructure\Doctor.Infrastructure\bin\Debug\net8.0\Doctor.Infrastructure.pdb
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\infrastructure\Doctor.Infrastructure\obj\Debug\net8.0\Doctor.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\infrastructure\Doctor.Infrastructure\obj\Debug\net8.0\Doctor.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\infrastructure\Doctor.Infrastructure\obj\Debug\net8.0\Doctor.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\infrastructure\Doctor.Infrastructure\obj\Debug\net8.0\Doctor.Infrastructure.AssemblyInfo.cs
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\infrastructure\Doctor.Infrastructure\obj\Debug\net8.0\Doctor.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\infrastructure\Doctor.Infrastructure\obj\Debug\net8.0\Doctor.Infrastructure.dll
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\infrastructure\Doctor.Infrastructure\obj\Debug\net8.0\refint\Doctor.Infrastructure.dll
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\infrastructure\Doctor.Infrastructure\obj\Debug\net8.0\Doctor.Infrastructure.pdb
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\infrastructure\Doctor.Infrastructure\obj\Debug\net8.0\Doctor.Infrastructure.genruntimeconfig.cache
+C:\Users\user\Desktop\Dr.Vusala\DoctorOnion\infrastructure\Doctor.Infrastructure\obj\Debug\net8.0\ref\Doctor.Infrastructure.dll

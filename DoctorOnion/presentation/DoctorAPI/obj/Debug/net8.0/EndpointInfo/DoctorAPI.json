@@ -1,0 +1,389 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "My API",
+    "license": {
+      "name": "MIT LICENSE",
+      "url": "https://opensource.org/licenses/MIT"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Procedures/GetProcedures": {
+      "get": {
+        "tags": [
+          "Procedures"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Procedures/GetItem": {
+      "get": {
+        "tags": [
+          "Procedures"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Procedures/Create": {
+      "post": {
+        "tags": [
+          "Procedures"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Name": {
+                    "type": "string"
+                  },
+                  "About": {
+                    "type": "string"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "İcon": {
+                    "type": "string"
+                  },
+                  "Mainİmage": {
+                    "type": "string"
+                  },
+                  "AddImage": {
+                    "type": "string"
+                  },
+                  "Permanence": {
+                    "type": "string"
+                  },
+                  "IsMain": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                },
+                "About": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "İcon": {
+                  "style": "form"
+                },
+                "Mainİmage": {
+                  "style": "form"
+                },
+                "AddImage": {
+                  "style": "form"
+                },
+                "Permanence": {
+                  "style": "form"
+                },
+                "IsMain": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Procedures/Update": {
+      "post": {
+        "tags": [
+          "Procedures"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateProcedureDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateProcedureDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateProcedureDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Procedures": {
+      "delete": {
+        "tags": [
+          "Procedures"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Slides/GetSlides": {
+      "get": {
+        "tags": [
+          "Slides"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Slides/GetById": {
+      "get": {
+        "tags": [
+          "Slides"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Slides/Create": {
+      "post": {
+        "tags": [
+          "Slides"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Image": {
+                    "type": "string"
+                  },
+                  "Title": {
+                    "type": "string"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "IsMain": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "encoding": {
+                "Image": {
+                  "style": "form"
+                },
+                "Title": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "IsMain": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Slides/Update": {
+      "post": {
+        "tags": [
+          "Slides"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Image": {
+                    "type": "string"
+                  },
+                  "Title": {
+                    "type": "string"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "IsMain": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "encoding": {
+                "Image": {
+                  "style": "form"
+                },
+                "Title": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "IsMain": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Slides/Delete": {
+      "delete": {
+        "tags": [
+          "Slides"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "UpdateProcedureDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "about": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "İcon": {
+            "type": "string",
+            "nullable": true
+          },
+          "mainİmage": {
+            "type": "string",
+            "nullable": true
+          },
+          "addImage": {
+            "type": "string",
+            "nullable": true
+          },
+          "permanence": {
+            "type": "string",
+            "nullable": true
+          },
+          "isMain": {
+            "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
